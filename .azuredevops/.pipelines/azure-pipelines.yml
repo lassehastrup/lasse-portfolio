@@ -1,0 +1,11 @@
+---
+pool:
+  vmImage: "ubuntu-latest"
+
+trigger:
+  branches:
+    include:
+      - main
+
+extends:
+  template: stages.yml

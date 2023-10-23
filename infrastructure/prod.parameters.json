@@ -1,0 +1,20 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "parameters": {
+        "environment": {
+            "value": "prod"
+        },
+        "resourceGroupName": {
+            "value": "rg-lha-portfolio-prod-1"
+        },
+        "location": {
+            "value": "westeurope"
+        },
+        "webAppName": {
+            "value": "lha-portfolio-prod-1"
+        },
+        "appServicePlanName": {
+            "value": "asp-lha-portfolio-1"
+        }
+    }
+}
