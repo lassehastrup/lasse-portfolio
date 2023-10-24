@@ -7,6 +7,7 @@ import { ContactUs } from "../pages/contact";
 import { About } from "../pages/about";
 import { Socialicons } from "../components/socialicons";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
+import { MarkdownViewer } from "../pages/portfolio/azure-landing-zones/markdownViewer";
 
 const AnimatedRoutes = withRouter(({ location }) => (
   <TransitionGroup>
@@ -24,6 +25,7 @@ const AnimatedRoutes = withRouter(({ location }) => (
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<ContactUs />} />
+        <Route path="/src/pages/portfolio/azure-landing-zones/azure-landing-zones.md" element={<MarkdownViewer />} />
         <Route path="*" element={<Home />} />
       </Routes>
     </CSSTransition>

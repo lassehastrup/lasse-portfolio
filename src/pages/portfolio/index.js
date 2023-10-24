@@ -3,6 +3,8 @@ import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import { dataportfolio, meta } from "../../content_option";
+import { MarkdownViewer } from "./../portfolio/azure-landing-zones/markdownViewer";
+import { Link } from "react-router-dom";
 
 export const Portfolio = () => {
   return (
@@ -26,11 +28,15 @@ export const Portfolio = () => {
                 <img src={data.img} alt="" />
                 <div className="content">
                   <p>{data.description}</p>
-                  <a href={data.link}>view project</a>
+                  {/* <a href={data.link}>view project</a> */}
+                  <Link to={data.link}>view project</Link>
                 </div>
               </div>
             );
           })}
+        </div>
+        <div>
+          <MarkdownViewer />
         </div>
       </Container>
     </HelmetProvider>

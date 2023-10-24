@@ -7,9 +7,9 @@ const meta = {
 const introdata = {
     title: "I’m Lasse Hastrup",
     animated: {
-        first: "Technology enthusiast",
-        third: "Cloud first approach",
-        second: "Infrastructure As Code approach",
+        first: "Technology enthusiast 👨‍💻",
+        third: "Bouldering addict! 🧗 ",
+        second: "Natural Wine lover!🍷",
     },
     description: "",
     your_img_url: "",
@@ -51,11 +51,7 @@ const skills = [{
 {
     name: "Microsoft Entra",
     value: 80,
-},
-{
-    name: "Python",
-    value: 50,
-},
+}
 ];
 
 const services = [{
@@ -75,7 +71,7 @@ const services = [{
 const dataportfolio = [{
     img: "https://techcommunity.microsoft.com/t5/image/serverpage/image-id/212187i9A179776A9938109/image-size/large?v=v2&px=999",
     description: "Azure Landing Zones",
-    link: "/portfolio/azure-landing-zones/index.html",
+    link: "/src/pages/portfolio/azure-landing-zones/azure-landing-zones.md",
 }
 ];
 
