@@ -38,20 +38,52 @@ const worktimeline = [{
 
 const skills = [{
     name: "Azure Infrastructure",
-    value: 90,
-},
-{
-    name: "PowerShell",
-    value: 95,
+    value: 85,
 },
 {
     name: "Azure DevOps",
     value: 85,
 },
 {
-    name: "Microsoft Entra",
+    name: "Microsoft 365",
     value: 80,
-}
+},
+{
+    name: "Hyper-V",
+    value: 65,
+},
+{
+    name: "VMware",
+    value: 50,
+},
+{
+    name: "Active Directory",
+    value: 80,
+},
+{
+    name: "Microsoft SQL server",
+    value: 60,
+},
+{
+    name: "Microsoft Power Platform",
+    value: 70,
+},
+{
+    name: "Microsoft Windows Server",
+    value: 85,
+},
+{
+    name: "Microsoft Exchange/Exchange Online",
+    value: 75,
+},
+{
+    name: "Microsoft Teams",
+    value: 85,
+},
+{
+    name: "PowerShell",
+    value: 100,
+},
 ];
 
 const services = [{

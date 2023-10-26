@@ -1,28 +1,31 @@
-// MarkdownViewer.js
-import React, { useState, useEffect } from "react";
+// App.js
+
+import React, { useState, useEffect } from 'react';
+
+import Markdown from 'markdown-to-jsx';
+
+import '../style.css';
 
 export const MarkdownViewer = () => {
-    const [markdownContent, setMarkdownContent] = useState("");
+    const file_name = 'azure-landing-zones.md';
+    const [post, setPost] = useState('');
 
     useEffect(() => {
-        // Fetch and set the Markdown content when this component mounts
-        async function fetchMarkdownContent() {
-            try {
-                const response = await fetch("/src/pages/portfolio/azure-landing-zones/azure-landing-zones.md");
-                const text = await response.text();
-                setMarkdownContent(text);
-            } catch (error) {
-                console.error("Error fetching Markdown content:", error);
-            }
-        }
-
-        fetchMarkdownContent();
-    }, []);
+        import(`./markdown/${file_name}`)
+            .then(res => {
+                fetch(res.default)
+                    .then(res => res.text())
+                    .then(res => setPost(res))
+                    .catch(err => console.log(err));
+            })
+            .catch(err => console.log(err));
+    });
 
     return (
-        <div>
-            <h2>Markdown Content</h2>
-            <div dangerouslySetInnerHTML={{ __html: markdownContent }} />
+        <div className="container">
+            <Markdown>
+                {post}
+            </Markdown>
         </div>
     );
-};
+}
