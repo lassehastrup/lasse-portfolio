@@ -19,7 +19,6 @@ export const Home = () => {
             className="h_bg-image order-1 "
             style={
               { backgroundImage: `url(${introdata.your_img_url})`,  }
-              // Make image central
             }
           ></div>
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
@@ -34,6 +33,7 @@ export const Home = () => {
                         introdata.animated.second,
                         introdata.animated.third,
                       ],
+                      stringSplitter: true,
                       autoStart: true,
                       loop: true,
                       deleteSpeed: 10,
