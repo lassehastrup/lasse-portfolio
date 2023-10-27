@@ -5,11 +5,11 @@ const meta = {
 };
 
 const introdata = {
-    title: "I’m Lasse Hastrup",
+    title: "I’m Lasse Hastrup ",
     animated: {
         first: "Technology enthusiast 👨‍💻",
         third: "Bouldering addict! 🧗 ",
-        second: "Natural Wine lover!🍷",
+        second: "Natural Wine lover!🍷"
     },
     description: "",
     your_img_url: "",
