@@ -51,6 +51,7 @@ export const Home = () => {
                         introdata.animated.third,
                       ],
                       autoStart: true,
+                      loop: true,
                     }}
                   />
                 </h1>
