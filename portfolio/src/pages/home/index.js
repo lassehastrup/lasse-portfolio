@@ -26,17 +26,16 @@ export const Home = () => {
               <div className="intro mx-auto">
                 <h2 className="mb-1x">{introdata.title}</h2>
                 <h1 className="fluidz-48 mb-1x">
+                  {introdata.animated.first}
                   <Typewriter
                     options={{
-                      strings: [
-                        introdata.animated.first,
-                        introdata.animated.second,
-                        introdata.animated.third,
-                      ],
                       stringSplitter: true,
+                      strings: [
+                      introdata.animated.first
+                      ],
                       autoStart: true,
                       loop: true,
-                      deleteSpeed: 10,
+                      deleteSpeed: 7,
                     }}
                   />
                 </h1>
