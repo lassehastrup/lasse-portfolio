@@ -7,12 +7,12 @@ const meta = {
 const introdata = {
     title: "I’m Lasse Hastrup ",
     animated: {
-        first: "Technology enthusiast 👨‍💻",
-        third: "Bouldering addict! 🧗 ",
-        second: "Natural Wine lover!🍷"
+        first: "❯ Technology enthusiast! 👨‍💻",
+        third: "❯ Bouldering addict! 🧗 ",
+        second: "❯ Natural Wine lover! 🍷"
     },
     description: "",
-    your_img_url: "",
+    your_img_url: "https://i.imgur.com/lwxm4N7.jpeg",
 };
 
 const dataabout = {

@@ -28,7 +28,6 @@ export const Portfolio = () => {
                 <img src={data.img} alt="" />
                 <div className="content">
                   <p>{data.description}</p>
-                  {/* <a href={data.link}>view project</a> */}
                   <Link to={data.link}>view project</Link>
                 </div>
               </div>
@@ -36,7 +35,6 @@ export const Portfolio = () => {
           })}
         </div>
         <div>
-          <MarkdownViewer />
         </div>
       </Container>
     </HelmetProvider>
