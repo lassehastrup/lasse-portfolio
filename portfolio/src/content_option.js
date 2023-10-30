@@ -20,83 +20,95 @@ const dataabout = {
     aboutme: "I’m Lasse Hastrup, Platform Engineer & Azure Cloud Consultant, currently working in Aarhus, Denmark. I have a passion for technology and love to learn new things. "
 };
 const worktimeline = [{
-    jobtitle: "Designer of week",
-    where: "YAdfi",
-    date: "2020",
+    jobtitle: "IT Consultant - Apprentice",
+    where: "Klestrup Partners",
+    date: "2015-2016",
 },
 {
-    jobtitle: "Designer of week",
-    where: "Jamalya",
-    date: "2019",
+    jobtitle: "Support & Operations Engineer - Apprentice",
+    where: "Hosters A/S",
+    date: "2016-2018",
 },
 {
-    jobtitle: "Designer of week",
-    where: "ALquds",
-    date: "2019",
+    jobtitle: "Support & Operations Engineer - Apprentice",
+    where: "Sentia A/S",
+    date: "2018-2020",
+},
+{
+    jobtitle: "DevOps Engineer/Systems Consultant",
+    where: "Jysk A/S",
+    date: "2020-2022",
+},
+{
+    jobtitle: "Cloud Consultant",
+    where: "Fellowmind",
+    date: "2022-present",
 },
 ];
 
-const skills = [{
-    name: "Azure Infrastructure",
-    value: 85,
-},
-{
-    name: "Azure DevOps",
-    value: 85,
-},
-{
-    name: "Microsoft 365",
-    value: 80,
-},
-{
-    name: "Hyper-V",
-    value: 65,
-},
-{
-    name: "VMware",
-    value: 50,
-},
-{
-    name: "Active Directory",
-    value: 80,
-},
-{
-    name: "Microsoft SQL server",
-    value: 60,
-},
-{
-    name: "Microsoft Power Platform",
-    value: 70,
-},
-{
-    name: "Microsoft Windows Server",
-    value: 85,
-},
-{
-    name: "Microsoft Exchange/Exchange Online",
-    value: 75,
-},
-{
-    name: "Microsoft Teams",
-    value: 85,
-},
-{
-    name: "PowerShell",
-    value: 100,
-},
+const skills = [
+    {
+        name: "PowerShell",
+        value: 100,
+    },
+    {
+        name: "Azure Infrastructure",
+        value: 85,
+    },
+    {
+        name: "Azure DevOps",
+        value: 85,
+    },
+    {
+        name: "Microsoft Windows Server",
+        value: 85,
+    },
+    {
+        name: "Microsoft 365",
+        value: 80,
+    },
+    {
+        name: "Active Directory",
+        value: 80,
+    },
+    {
+        name: "Microsoft Exchange/Exchange Online",
+        value: 75,
+    },
+
+    {
+        name: "Microsoft Power Platform",
+        value: 70,
+    },
+    {
+        name: "Microsoft Teams",
+        value: 65,
+    },
+    {
+        name: "Hyper-V",
+        value: 65,
+    },
+    {
+        name: "Microsoft SQL server",
+        value: 60,
+    },
+    {
+        name: "VMware",
+        value: 50,
+    },
 ];
 
 const services = [{
     title: "Infrastructure as Code",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    description: "Coding infrastructure using ARM templates, Terraform, Bicep, etc.",
 },
 {
-    title: "Mobile Apps",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    title: "Complex troubleshooting",
+    description: "Working multiple years as 3rd line support engineer, I have gained a lot of experience in troubleshooting complex issues on Windows Server using Sysinternals tools and other tools.",
 },
 {
-    title: "Wordpress Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    title: "Automating tasks",
+    description: "Automating tasks using PowerShell, Azure Automation, Azure Functions, Azure Logic Apps, Azure DevOps, etc.",
 },
 ];
 
