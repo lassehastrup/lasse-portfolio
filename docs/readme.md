@@ -2,7 +2,7 @@
 
 Portfolio website written in ReactJS and hosted using Azure Static Web Apps.
 
-## Getting Started
+[Website](https://lasse.hastrup.me)
 
 ### Prerequisites
 
