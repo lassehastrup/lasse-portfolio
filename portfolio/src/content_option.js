@@ -19,31 +19,32 @@ const dataabout = {
     title: "Who am I?",
     aboutme: "I’m Lasse Hastrup, Platform Engineer & Azure Cloud Consultant, currently working in Aarhus, Denmark. I have a passion for technology and love to learn new things. "
 };
-const worktimeline = [{
-    jobtitle: "IT Consultant - Apprentice",
-    where: "Klestrup Partners",
-    date: "2015-2016",
-},
-{
-    jobtitle: "Support & Operations Engineer - Apprentice",
-    where: "Hosters A/S",
-    date: "2016-2018",
-},
-{
-    jobtitle: "Support & Operations Engineer - Apprentice",
-    where: "Sentia A/S",
-    date: "2018-2020",
-},
-{
-    jobtitle: "DevOps Engineer/Systems Consultant",
-    where: "Jysk A/S",
-    date: "2020-2022",
-},
-{
-    jobtitle: "Cloud Consultant",
-    where: "Fellowmind",
-    date: "2022-present",
-},
+const worktimeline = [
+    {
+        jobtitle: "Cloud Consultant",
+        where: "Fellowmind",
+        date: "2022-present",
+    },
+    {
+        jobtitle: "DevOps Engineer/Systems Consultant",
+        where: "Jysk A/S",
+        date: "2020-2022",
+    },
+    {
+        jobtitle: "Support & Operations Engineer - Apprentice",
+        where: "Sentia A/S",
+        date: "2018-2020",
+    },
+    {
+        jobtitle: "Support & Operations Engineer - Apprentice",
+        where: "Hosters A/S",
+        date: "2016-2018",
+    },
+    {
+        jobtitle: "IT Consultant - Apprentice",
+        where: "Klestrup Partners",
+        date: "2015-2016",
+    },
 ];
 
 const skills = [
